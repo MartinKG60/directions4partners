@@ -76,6 +76,13 @@ header .container {
     align-items: center;
 }
 
+.header-divider {
+    width: 1px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.25);
+    margin: 0 10px;
+}
+
 /* Logo Styles */
 .icon-auto {
     display: block;
