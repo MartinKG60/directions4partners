@@ -12,7 +12,7 @@ body {
 .theme-toggle {
     position: fixed;
     left: 18px;
-    top: 50%;
+    top: 20%;
     transform: translateY(-50%);
     z-index: 5;
     padding: 10px 14px;
@@ -35,6 +35,11 @@ body {
 
 .block {
     display: block;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
 }
 
 .extra-bold {
@@ -210,6 +215,10 @@ nav a:hover {
 
 .text-content h1 {
     font-size: 6rem !important;
+    font-family: 'Playfair Display', serif;
+}
+.text-content p {
+    color: rgb(148 163 184 / var(--tw-text-opacity, 1));
 }
 
 .text-content {
@@ -261,6 +270,7 @@ nav a:hover {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    font-weight: 800;
     color: #ffffff;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
